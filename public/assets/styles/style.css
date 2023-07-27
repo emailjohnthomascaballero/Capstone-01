@@ -485,15 +485,29 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
-.text-yellow-600 {
-  --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
+.font-bold {
+  font-weight: 700;
 }
-
-* {
-  color: blueviolet;
+.font-semibold {
+  font-weight: 600;
+}
+.text-dodger-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(8 75 184 / var(--tw-text-opacity));
+}
+.text-yellow-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+.text-french-rose-300 {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }

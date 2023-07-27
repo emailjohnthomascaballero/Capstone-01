@@ -489,11 +489,7 @@ video {
   font-size: 3rem;
   line-height: 1;
 }
-.text-yellow-600 {
+.text-purple-500 {
   --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
-}
-
-* {
-  color: blueviolet;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
 }

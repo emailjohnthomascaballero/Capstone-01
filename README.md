@@ -7,9 +7,21 @@ Capstone Project
 - Node.js
 - EJS
 - Express
+- Express EJS Layouts
+- Tailwind
 
 ## How To Run
 
 ```
+npm install
+```
+
+```
 npm run start
+```
+
+## Compile Tailwind CSS
+
+```
+npm run devcss
 ```

@@ -1,3 +1,5 @@
+![alt text](https://codemnl.com/assets/images/code-mnl-logo.svg "Logo Title Text 1")
+
 # Job Portal Multi-page Static Front-end Project
 
 Capstone Project

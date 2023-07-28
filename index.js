@@ -1,9 +1,12 @@
 const express = require("express");
+const expressLayouts = require("express-ejs-layouts");
 const path = require("path");
 
 const app = express();
 
 app.use(express.static("public"));
+app.use(expressLayouts);
+app.set("layout", "./layouts/master");
 app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {

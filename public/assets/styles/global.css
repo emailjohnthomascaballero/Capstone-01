@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  .btn {
+    @apply flex w-full items-center justify-center rounded-md px-3 py-2 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-french-rose-600 text-white hover:bg-french-rose-500 focus-visible:outline-french-rose-600;
+  }
+
+  .btn-secondary {
+    @apply bg-dodger-blue-600 text-white hover:bg-dodger-blue-500 focus-visible:outline-dodger-blue-600;
+  }

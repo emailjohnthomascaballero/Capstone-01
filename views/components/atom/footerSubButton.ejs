@@ -1,3 +1,11 @@
+<% 
+buttonText = buttonText; 
+// If the primary color is not assigned, the secondary color will be applied.
+buttonVariant = typeof buttonVariant !== 'undefined' ? buttonVariant : 'secondary'; 
+%>
+
 <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-  <button type="submit" class="btn btn-primary">Subscribe</button>
+  <button type="submit" class="btn btn-<%= buttonVariant %>">
+    <%= buttonText %>
+  </button>
 </div>

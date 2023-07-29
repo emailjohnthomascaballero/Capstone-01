@@ -485,6 +485,28 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.btn:focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 2px;
+}
 .btn-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(127 13 69 / var(--tw-bg-opacity));
@@ -497,19 +519,6 @@ video {
 }
 .btn-primary:focus-visible {
   outline-color: #7F0D45;
-}
-.btn-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 53 131 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.btn-secondary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 75 184 / var(--tw-bg-opacity));
-}
-.btn-secondary:focus-visible {
-  outline-color: #063583;
 }
 .sr-only {
   position: absolute;

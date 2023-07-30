@@ -179,7 +179,8 @@
         <p class="mt-2 text-sm leading-6 text-gray-600">
           The latest news, articles, and resources, sent to your inbox weekly.
         </p>
-        <%- include("../../components/molecules/footer-newsletter-links") %>
+        <%- include("../../components/molecules/footer-newsletter-links",
+        {buttonText: "Subscribe", buttonVariant: "primary"}); %>
       </div>
     </div>
     <div

@@ -1,7 +1,12 @@
+<% 
+buttonText = buttonText; 
+// If the primary color is not assigned, the secondary color will be applied.
+buttonVariant = typeof buttonVariant !== 'undefined' ? buttonVariant : 'secondary'; 
+%> 
+
 <form class="mt-6 sm:flex sm:max-w-md">
   <!-- Placeholder -->
   <%- include("../atom/footerSubPlaceholder"); %>
   <!-- Button -->
-  <%- include("../atom/footerSubButton", {buttonText: "Subscribe",
-  buttonVariant: "primary"}); %>
+  <%- include("../atom/footerSubButton", {buttonText, buttonVariant}); %>
 </form>
